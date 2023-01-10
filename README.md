@@ -8,7 +8,7 @@ A "semi-satirical" Hockey focused horoscope app.
 - build for longevity (to be used by a few regular visitors over the next 12 months.)
 
 ## initial idea
-#### what is your hockey focused horoscope AKA "hockeyscope"?
+### what is your hockey focused horoscope AKA "hockeyscope"?
 - your hockeyscope is how your favorite hockey team is doing, has been doing, or is projected to do in upcoming games.
   - if your team has won that day or the day before, your hockeyscope is good.
   - if your team is on a win streak, your hockeyscope is great!
@@ -24,7 +24,7 @@ A "semi-satirical" Hockey focused horoscope app.
   - if the opposing team is on a win streak, it is negative for your hockeyscope.
   - if your team is playing away, it is negative for your hockeyscope.
 
-#### what will this hockeyscope look like?
+### what will this hockeyscope look like?
 - a hockeyscope page will primarily display the next game your favorite team is playing, including the opposing team, home || away, date, and time.
   - your hockey team's record of the last _x_ games (current season)
   - your hockey team's record of the last _x_ games (vs opposing team only)
@@ -43,7 +43,7 @@ A "semi-satirical" Hockey focused horoscope app.
 
 ## implementation
 
-#### back-end
+### back-end
 - ability to call and parse data using NHL API
   - schedule for a team (variable)
   - record for a team vs another team (variable)
@@ -55,13 +55,13 @@ A "semi-satirical" Hockey focused horoscope app.
 
 - flexibility and dry practice
   - empathetic code organization
-#### front-end
+### front-end
 - simple interface
   - select favorite team (stash previous choice?)
   - basic navigation to minimal pages.
   - organize page to read clearly
   
-#### graphical
+### graphical
 - concept
   - to look like a horoscope app
     - ex: co-star, CHANI
@@ -69,3 +69,12 @@ A "semi-satirical" Hockey focused horoscope app.
 - images
   - hockey graphics but in the style of horoscope symbols
   
+## resources
+
+### links
+- [NHL API](https://gitlab.com/dword4/nhlapi/-/blob/master/stats-api.md)
+  - [gh documentation](https://github.com/dword4/nhlapi)
+
+- [Concept Wireframes (none yet)]()
+
+- [Google "Jamboard" for project draft structure](https://jamboard.google.com/d/1GUtAwA-zv2wDR5eYvzArGWUo7Ig5lVH5_5uWOfpGg40/edit?usp=sharing)
