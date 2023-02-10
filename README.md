@@ -1,27 +1,20 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## To - Do (Ordered by Priority)
 
-Things you may want to cover:
+- [ ] API Setup / Parsing:
+  - [ ] List of all teams (for a user to select their favorite, and to gather team IDs for easy calling).
+  - [ ] Next game for a single team.
 
-* Ruby version
+- [ ] User creation and dashboard (temporary front end):
+  - [ ] Form to create user & select favorite team.
+  - [ ] Dashboard that shows favorite team, their next game info, and the opponent.
+  
+- [ ] Comparing teams:
+  - [ ] Team ranking in league vs opponent ranking in league.
+  - [ ] Team record vs opponent last season / so far this season.
 
-* System dependencies
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
 # hockeyscope
 A "semi-satirical" Hockey focused horoscope app.
 
