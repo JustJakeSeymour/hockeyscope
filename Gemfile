@@ -16,6 +16,11 @@ gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'mini_racer', platforms: :ruby
 
+gem 'faraday'
+gem 'json'
+
+gem 'turbolinks', '~> 5'
+
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -36,7 +41,14 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  # gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'rspec-rails', '~>4.0.1'
+  gem 'pry-rails'
+  gem 'webmock'
+  gem 'vcr'
+  gem 'rubocop'
+  gem 'simplecov'
+  gem 'shoulda-matchers'
 end
 
 group :development do
